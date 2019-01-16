@@ -1,5 +1,17 @@
+#ghost {
+  height: 254px;
+  width: 203px;
+  background: url(../../assets/ghost_sheet.png) 0px 0px;
+}
+#profile {
+  height: 254px;
+  width: 203px;
+  background: url(../../assets/ghost_sheet.png) 0px 0px;
+
+}
+
 header.masthead {
-    padding-top: calc(6rem + 72px);
+    padding-top: calc(3rem + 72px);
     padding-bottom: 6rem;
   }
   
@@ -11,4 +23,18 @@ header.masthead {
   header.masthead h2 {
     font-size: 1.3rem;
     font-family: 'Lato';
+  }
+
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: calc(3rem + 106px);
+      padding-bottom: 6rem;
+    }
+    header.masthead h1 {
+      font-size: 4.75em;
+      line-height: 4rem;
+    }
+    header.masthead h2 {
+      font-size: 1.75em;
+    }
   }
