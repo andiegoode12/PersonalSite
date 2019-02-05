@@ -15,7 +15,4 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  private introAnimation() {
-    
-  }
 }

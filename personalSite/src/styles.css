@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Montserrat:400,600,700,800,900";
+.pink {
+  background-color: #FFC9FA;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+hr.keyboard-light, hr.keyboard-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.keyboard-light:after, hr.keyboard-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f11c';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+hr.keyboard-light {
+  border-color: #fff;
+}
+
+hr.keyboard-light:after {
+  color: #fff;
+  background-color: #343A40;
+}
+
+hr.keyboard-dark {
+  border-color: #343A40;
+}
+
+hr.keyboard-dark:after {
+  color: #343A40;
+  background-color: white;
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
