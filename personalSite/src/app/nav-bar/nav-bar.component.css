@@ -21,7 +21,7 @@
     color: #F2B0F7;
   }
   
-  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item, a.nav-link:focus {
     color: #fff;
   }
   
@@ -33,6 +33,18 @@
     font-size: 80%;
     padding: 0.8rem;
   }
+
+  #mainNav .nav-btn {
+    background-color: #fff;
+    border-color: #fff;
+    color: #333A40;
+  }
+
+  #mainNav .nav-btn:hover, .nav-btn:focus, .nav-btn:active {
+    background-color: #F2B0F7;
+    border-color: #F2B0F7;
+  }
+
   
   @media (min-width: 992px) {
     #mainNav {

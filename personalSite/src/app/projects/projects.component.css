@@ -1,0 +1,14 @@
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media (min-width: 992px) {
+    h2 {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+      }
+}

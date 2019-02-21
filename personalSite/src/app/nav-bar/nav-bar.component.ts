@@ -9,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 export class NavBarComponent implements OnInit {
   @Input() name;
   @Input() topOfPage;
+  navbarOpen = false;
 
   constructor(private route: ActivatedRoute) { }
 
@@ -16,4 +17,7 @@ export class NavBarComponent implements OnInit {
 
   }
 
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
 }
