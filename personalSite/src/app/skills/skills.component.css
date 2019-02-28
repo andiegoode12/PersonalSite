@@ -1,13 +1,39 @@
-h2 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-  }
+h3 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+}
 
-  @media (min-width: 992px) {
-    h2 {
-        font-size: 3em;
-        font-weight: 700;
-        font-family: 'Roboto', sans-serif;
-      }
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #343A40;
+}
+
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+  color: #343A40;
+  background-color: #F6D0FA;
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+  }
 }

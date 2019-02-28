@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,10 +11,13 @@ export class NavBarComponent implements OnInit {
   @Input() topOfPage;
   navbarOpen = false;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
 
+  }
+  navigateTo() {
+    this.router.navigate(['/about-me']);
   }
 
   toggleNavbar() {

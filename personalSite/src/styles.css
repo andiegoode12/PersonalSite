@@ -1,8 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "https://fonts.googleapis.com/css?family=Roboto:400,500,700,900|Montserrat:400,600,700,800,900";
-.pink {
-  background-color: #FFC9FA;
+.bg-pink {
+  background-color: #F6D0FA;
+}
+
+.text-pink {
+  color: #F6D0FA;
+}
+
+.text-dark {
+  color: #333A40;
 }
 
 body {
@@ -11,12 +19,24 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.section h2 {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr.keyboard-light, hr.keyboard-dark {
@@ -62,7 +82,30 @@ hr.keyboard-dark:after {
 
 @media (min-width: 992px) {
   .section {
-    padding-top: 6rem;
+    padding-top: 8rem;
     padding-bottom: 6rem;
+  }
+  .section h2 {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ghost-smile, .ghost-smile-blink {
+    background-image: url('assets/ghost_sheet_small.png');
+    background-repeat: no-repeat;
+  }
+  .ghost-smile {
+    height: 190px;
+    width: 153px;
+    background-position: 0px;
+  }
+  .ghost-smile-blink {
+    height: 190px;
+    width: 153px;
+    background-position: -150px;
   }
 }

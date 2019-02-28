@@ -18,7 +18,7 @@
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #F2B0F7;
+    color: #F6D0FA;
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item, a.nav-link:focus {
@@ -26,7 +26,7 @@
   }
   
   #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #F2B0F7;
+    color: #F6D0FA;
   }
   
   #mainNav .navbar-toggler {
@@ -41,8 +41,14 @@
   }
 
   #mainNav .nav-btn:hover, .nav-btn:focus, .nav-btn:active {
-    background-color: #F2B0F7;
-    border-color: #F2B0F7;
+    background-color: #F6D0FA;
+    border-color: #F6D0FA;
+  }
+
+  #mainNav .active {
+    background-color: #F6D0FA;
+    border-color: #F6D0FA;
+    border-radius: 10px;
   }
 
   
@@ -63,11 +69,11 @@
     }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #fff;
-      background: #F2B0F7;
+      background: #F6D0FA;
     }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
       color: #fff;
-      background: #F2B0F7;
+      background: #F6D0FA;
     }
     #mainNav.navbar-shrink {
       padding-top: 0.5rem;

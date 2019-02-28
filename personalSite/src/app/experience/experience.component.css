@@ -1,14 +1,45 @@
-
 h2 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-  }
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
 
-  @media (min-width: 992px) {
-    h2 {
-        font-size: 3em;
-        font-weight: 700;
-        font-family: 'Roboto', sans-serif;
-      }
+hr.briefcase-light {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: white;
+}
+
+hr.briefcase-light:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f0b1';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+  color: white;
+  background-color: #343A40;
+}
+
+.experience {
+  background-color: #343A40;
+  border-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 1rem;
+}
+
+@media (min-width: 992px) {
+  h2 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
 }
